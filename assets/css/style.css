@@ -1,0 +1,26 @@
+.azul-caixa-uva {
+    background: linear-gradient(to right, rgb(33, 37, 41) , rgb(103, 106, 108)) !important;
+    color: white;
+  }
+
+.nav-legacy {
+    margin: 3.85rem -0.5rem 0 !important;
+}
+
+.logo-caixa{
+        margin-top: -6px;
+        margin-left: 16px;    
+}
+
+.navbar-header-azul-caixa {
+    background-color: rgb(33, 37, 41);
+}
+
+.navbar-azul-caixa {
+    background: linear-gradient(to right, rgb(33, 37, 41) , rgb(103, 106, 108)) !important;
+}
+
+.main-header{
+    height: 57px !important;
+}
+  
