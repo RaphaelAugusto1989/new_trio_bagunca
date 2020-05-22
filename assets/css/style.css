@@ -1,6 +1,6 @@
-.azul-caixa-uva {
+.header-bg {
     background: linear-gradient(to right, rgb(33, 37, 41) , rgb(103, 106, 108)) !important;
-    color: white;
+    color: #FFFFFF;
   }
 
 .nav-legacy {
@@ -16,11 +16,15 @@
     background-color: rgb(33, 37, 41);
 }
 
-.navbar-azul-caixa {
-    background: linear-gradient(to right, rgb(33, 37, 41) , rgb(103, 106, 108)) !important;
+.navbar-bg {
+    background: linear-gradient(to right, rgb(33, 37, 41) , rgb(33, 37, 41)) !important; */
 }
 
 .main-header{
     height: 57px !important;
+}
+
+li.user a:hover {
+    background: none !important;
 }
   

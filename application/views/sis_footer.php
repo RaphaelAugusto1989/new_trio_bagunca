@@ -1,19 +1,18 @@
-
-        <footer class="main-footer">
-            <div class="float-right d-none d-sm-block">
-                <b>Version</b> 1.0
-            </div>
-            Copyright &copy; 2020 <a href="http://artspeck.com.br">artspeck.com.br</a>.</strong> All rights
-            reserved.
-        </footer>
+    <footer class="main-footer">
+        <strong>
+            © <?php echo date('Y');?> SIGAP - SISTEMA DE GESTÃO ARTSPECK
+        </strong>
+    </footer>
     </div>
 </body>
     <script src="<?= base_url('assets/js/jquery.js');?>"></script>
     <script src="<?= base_url('assets/js/bootstrap.min.js');?>"></script>
-    <script src="<?= base_url('assets/js/toast.new.js');?>"></script>
-    <script defer src="<?= base_url('assets/js/fontawesome.js');?>"></script>
+    <script src="<?= base_url('assets/js/alert_toast.js');?>"></script>
+    <script defer src="<?= base_url('assets/js/icons_fontawesome.js');?>"></script>
+    <script defer src="<?= base_url('assets/js/mask.jquery.min.js');?>"></script>
+    <script defer src="<?= base_url('assets/js/mask.js');?>"></script>
     
     <!-- SCRIPTS DO LAYOUT ABAIXO-->
-    <script src="<?= base_url('assets/js/adminlte.min.js');?>"></script>
-    <script src="<?= base_url('assets/js/demo.js');?>"></script>
+    <script src="<?= base_url('assets/js/layout.adminlte.min.js');?>"></script>
+    <script src="<?= base_url('assets/js/layout_admin_lte.js');?>"></script>
 </html>
