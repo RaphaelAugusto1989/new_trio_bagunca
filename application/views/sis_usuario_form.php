@@ -78,7 +78,7 @@
                     <div class="form-group col-md-4 col-lg-3"></div>
                     <div class="form-group col-md-4 col-lg-3"></div>
                     <div class="form-group col-md-4 col-lg-3">
-                        <button class="btn btn-success btn-sm btn-block pl-3 pr-3" id="salvarUsuario"> <i class="fas fa-save"></i> Salvar</button>
+                        <button class="btn btn-success btn-sm btn-block pl-3 pr-3" onclick="validaUsuario()"> <i class="fas fa-save"></i> Salvar</button>
                     </div>
                 </div>
             </div>
@@ -86,6 +86,6 @@
         </div>
     </section>
 </div>
-<script src="<?= base_url('assets/js/sisUsuarios.js')?>"></script>
+<script src="<?= base_url('assets/js/validaUsuario.js')?>"></script>
 
 
