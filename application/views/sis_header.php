@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="<?= base_url('assets/css/admin-lte-skin.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/admin-lte.css'); ?>">
     <!-- <link rel="stylesheet" href="<?= base_url('assets/css/adminlte.css'); ?>"> -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/alert.toastr.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/alerts.bootoast.css'); ?>">
 
 	<title>SIGAP - SISTEMA DE GESTÃO ARTSPECK</title>
 </head>

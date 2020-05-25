@@ -10,7 +10,7 @@
     <script type="text/javascript" src="<?= base_url('assets/js/icons_fontawesome.js');?>"></script>
     <script type="text/javascript" src="<?= base_url('assets/js/mask.jquery.min.js');?>"></script>
     <script type="text/javascript" src="<?= base_url('assets/js/mask.js');?>"></script>
-    <script type="text/javascript" src="<?= base_url('assets/js/alert.toastr.min.js');?>"></script>
+    <script type="text/javascript" src="<?= base_url('assets/js/alert.sbootoast.min.js');?>"></script>
     
     <!-- SCRIPTS DO LAYOUT ABAIXO-->
     <script type="text/javascript" src="<?= base_url('assets/js/layout.adminlte.min.js');?>"></script>

@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://www.ceratbr.des.df.caixa/dev_raphael/financeiro/';
+$config['base_url'] = 'http://www.ceratbr.des.df.caixa/dev_raphael/sigap/';
 
 /*
 |--------------------------------------------------------------------------

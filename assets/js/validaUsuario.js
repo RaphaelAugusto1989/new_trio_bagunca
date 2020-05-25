@@ -6,11 +6,15 @@ function validaUsuario() {
     var senha = $("input[name='senha']").val();
 
     if (cpf == '') {
-        $.toaster({
-            priority: 'danger',
-            title: 'Atenção',
-            messege: 'CPF obrigatório!',
-            settings: {'timeout': 40000}
+        var ErrBoder = 'class="form-control cpf border-danger"';
+        bootoast.toast({
+            message: 'CPF obrigatório!',
+            type: 'danger',
+            //icon:'exclamation-sign', //Glyphicons name
+            position: 'top-center', //top-center, top-left, top-right, bottom-center, bottom-left, bottom-right
+            //timeout: 2000, 
+            timeoutProgress: 'top', //false, 'top', 'bottom', 'background'
+            //animationDuration: 300,
         });
     } else {
         alert(cpf);

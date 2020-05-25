@@ -1,6 +1,8 @@
 <?php
     defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+<script src="<?= base_url('assets/js/validaUsuario.js')?>"></script>
+
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -12,7 +14,7 @@
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="<?= site_url();?>">Home</a></li>
                         <li class="breadcrumb-item"><a href="<?= site_url('usuarios/Cadastrados');?>">Usuários</a></li>
-                        <li class="breadcrumb-item active">Usuários</li>
+                        <li class="breadcrumb-item active"><?= $title; ?></li>
                     </ol>
                 </div>
             </div>
@@ -21,7 +23,7 @@
     <section class="content">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title"><?= $title ?></h3>
+                <h3 class="card-title"><b><?= $title ?></b></h3>
                 <div class="card-tools">
                     <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
                         <i class="fas fa-minus"></i>
@@ -86,6 +88,5 @@
         </div>
     </section>
 </div>
-<script src="<?= base_url('assets/js/validaUsuario.js')?>"></script>
 
 
