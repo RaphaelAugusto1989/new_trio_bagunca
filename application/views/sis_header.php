@@ -9,10 +9,11 @@
     <meta name="robots" content="noodp, noydir">
     <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css'); ?>">
+    <!-- -------------------------- CSS do layout ------------------------------- -->
     <link rel="stylesheet" href="<?= base_url('assets/css/admin-lte-skin.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/admin-lte.css'); ?>">
-    <!-- <link rel="stylesheet" href="<?= base_url('assets/css/adminlte.css'); ?>"> -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/alerts.bootoast.css'); ?>">
+    <!-- -------------------------- CSS do layout ------------------------------- -->
+    <link rel="stylesheet" href="<?= base_url('assets/css/alerts.toastr.css'); ?>">
 
 	<title>SIGAP - SISTEMA DE GESTÃO ARTSPECK</title>
 </head>

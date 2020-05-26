@@ -46,7 +46,7 @@
                 </div>
                 <div class="form-row mt-2">
                     <div class="form-group col-md-6 col-lg-3">
-                        <label> CPF: </label>
+                        <label class="labelCpf"> CPF: </label>
                         <input type="text" name="cpf" class="form-control cpf" id="">
                     </div>
                     <div class="form-group col-md-6 col-lg-3"></div>
@@ -61,8 +61,8 @@
                 </div>
                 <div class="form-row mt-2">
                     <div class="form-group col-12">
-                        <label> E-mail: </label>
-                        <input type="email" name="email" class="form-control" id="">
+                        <label class="labelEmail"> E-mail: </label>
+                        <input type="email" name="email" class="form-control email" onBlur="validaEmail(email)" id="">
                     </div>
                 </div>
                 <div class="form-row mt-2">
