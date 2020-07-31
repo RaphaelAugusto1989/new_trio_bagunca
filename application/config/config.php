@@ -23,7 +23,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://www.ceratbr.des.df.caixa/dev_raphael/sigap/';
+
+if ($_SERVER['HTTP_HOST'] == 'localhost') {
+    $config['base_url'] = 'http://localhost/sigap/';
+} elseif ($_SERVER['HTTP_HOST'] == 'http://www.ceratbr.des.df.caixa') {
+    $config['base_url'] = 'http://www.ceratbr.des.df.caixa/dev_raphael/sigap/';
+} else {
+    $config['base_url'] = 'https://';
+}
 
 /*
 |--------------------------------------------------------------------------

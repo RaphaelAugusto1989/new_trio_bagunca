@@ -1,4 +1,4 @@
-function validaUsuario() {
+function validaContas() {
     var cpf = $("input[name='cpf']").val();
     var nome = $("input[name='nome']").val();
     var email = $("input[name='email']").val();

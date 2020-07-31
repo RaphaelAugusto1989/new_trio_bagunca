@@ -53,7 +53,7 @@
                 </a>
             </li>
             <li class="treeview">
-                <a href="#">
+                <a href="<?= site_url('financeiro/Contas');?>">
                     <i class="nav-icon fas fa-credit-card mr-2"></i>
                     <span> Financeiro</span>
                 </a>
