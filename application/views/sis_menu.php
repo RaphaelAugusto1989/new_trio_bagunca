@@ -26,7 +26,7 @@
             <ul class="nav navbar-nav">
                 <!-- User Account: style can be found in dropdown.less -->
                 <li class="dropdown user user-menu">
-                    <a href="<?php echo site_url("home/logout"); ?>" class="" >
+                    <a href="<?php echo site_url("Home/logout"); ?>" class="" >
                         <span class="hidden-xs"><i class="nav-icon fas fa-user"></i> <span style="text-transform:uppercase">
                             <span style="display:inline-block;">
                                 Raphael Augusto Almeida Pereira          								
@@ -53,7 +53,7 @@
                 </a>
             </li>
             <li class="treeview">
-                <a href="<?= site_url('financeiro/Contas');?>">
+                <a href="<?= site_url('Financeiro/Contas');?>">
                     <i class="nav-icon fas fa-credit-card mr-2"></i>
                     <span> Financeiro</span>
                 </a>
@@ -81,7 +81,7 @@
                 <!--  sub-menus -->
                 <ul class="treeview-menu">
                     <li class="ml-3">
-                        <a href="<?= site_url('usuarios/Cadastrados');?>">
+                        <a href="<?= site_url('Usuarios/Cadastrados');?>">
                             <i class="nav-icon fas fa-user-cog mr-2"></i>
                             <span>Usuários</span>
                         </a>
