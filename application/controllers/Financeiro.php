@@ -6,20 +6,42 @@ class Financeiro extends CI_Controller {
 		parent::__construct(); 
 	}
 
-	public function Contas() {
+	public function ContasPagar() {
         $data = array (  
             'title' => 'Contas do Mês de '
         );
 
 		$this->load->view('sis_header', $data);
 		$this->load->view('sis_menu');
-		$this->load->view('sis_financeiro', $data);
+		$this->load->view('sis_contapagar', $data);
 		$this->load->view('sis_footer');
 	}
 
-	public function NovaConta() {
+	public function ContasReceber() {
+        $data = array (  
+            'title' => 'Contas do Mês de '
+        );
+
+		$this->load->view('sis_header', $data);
+		$this->load->view('sis_menu');
+		$this->load->view('sis_contareceber', $data);
+		$this->load->view('sis_footer');
+	}
+
+	public function NovaContaPagar() {
 		$data = array (  
-			'title' => 'Nova Conta'
+			'title' => 'A Pagar'
+        );
+        
+		$this->load->view('sis_header', $data);
+		$this->load->view('sis_menu');
+		$this->load->view('sis_contapagar_form', $data);
+		$this->load->view('sis_footer');
+	}
+
+	public function NovaContaReceber() {
+		$data = array (  
+			'title' => 'A Receber'
         );
         
 		$this->load->view('sis_header', $data);

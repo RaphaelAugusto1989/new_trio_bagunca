@@ -40,19 +40,6 @@
                     </div>
                 </div>
                 <div class="form-row mt-2">
-                    <div class="form-group col-md-6 col-lg-3">
-                        <label class="labelConta"> Conta: </label>
-                        <select name="" id="" class="custom-select">
-                            <option value="" disabled selected> -- </option>
-                            <option value="1"> A Pagar</option>
-                            <option value="2"> A Receber</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-md-6 col-lg-3"></div>
-                    <div class="form-group col-md-0 col-lg-3"></div>
-                    <div class="form-group col-md-6 col-lg-3"></div>
-                </div>
-                <div class="form-row mt-2">
                     <div class="form-group col-12">
                         <label> Nome da Conta: </label>
                         <input type="text" name="nome_conta" class="form-control" id="">
@@ -65,22 +52,32 @@
                     </div>
                 </div>
                 <div class="form-row mt-2">
-                        <div class="form-group col-6">
-                            <label> Valor: </label><br>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">R$</span>
-                                </div>
-                                <input type="text" name="valor moeda" class="form-control" id="">
+                    <div class="form-group col-6">
+                        <label> Valor: </label><br>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">R$</span>
+                            </div>
+                            <input type="text" name="valor" class="form-control moeda" id="">
+                        </div>
+                    </div>
+                    <div class="form-group col-6">
+                    <label class="labelPago"> Parcelas: </label> 
+                        <div class="input-group">
+                            <input type="text" name="qtd" class="form-control" onkeypress="return somenteNumeros(event)"  maxlength="3" id="">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">X</span>
                             </div>
                         </div>
-                    <div class="form-group col-6">
-                        <label class="labelPago"> Pago: </label>
+                        <small class="float-right text-muted"> *A vista digite 1</small>
+                    </div>
+                    <!-- <div class="form-group col-4">
+                        <label class="labelPago"> Pago/Recebido: </label>
                             <select name="pago" id="" class="custom-select">
                                 <option value="1"> Sim</option>
                                 <option value="2" selected> Não</option>
                             </select>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="form-row mt-2">
                     <div class="form-group col-md-0 col-lg-3"></div>

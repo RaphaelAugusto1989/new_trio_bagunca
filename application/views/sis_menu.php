@@ -53,21 +53,31 @@
                 </a>
             </li>
             <li class="treeview">
-                <a href="<?= site_url('Financeiro/Contas');?>">
+                <a href="#">
                     <i class="nav-icon fas fa-credit-card mr-2"></i>
-                    <span> Financeiro</span>
+                    <span> Financeiro <i class="right fas fa-angle-left"></i></span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
                 </a>
+                <!--  sub-menus -->
+                <ul class="treeview-menu">
+                    <li class="ml-3">
+                        <a href="<?= site_url('Financeiro/ContasPagar');?>">
+                        <i class="fas fa-smile-beam mr-2"></i>
+                            <span>Contas à pagar</span>
+                        </a>
+                        <a href="<?= site_url('Financeiro/ContasReceber');?>">
+                        <i class="fas fa-frown mr-2"></i>
+                          <span>Contas à Receber</span>
+                        </a>
+                    </li>						
+                </ul>
             </li>
             <li class="treeview">
                 <a href="#">
                     <i class="nav-icon fas fa-comments-dollar mr-2"></i>
                     <span> Chamados</span>
-                </a>
-            </li>
-            <li class="treeview">
-                <a href="#">
-                    <i class="nav-icon fas fa-users mr-2"></i>
-                    <span> Clientes</span>
                 </a>
             </li>
             <li class="treeview">
